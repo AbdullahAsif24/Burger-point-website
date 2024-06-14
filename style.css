@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.card-container{
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.card-container-2{
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.card{
+    border: 2px solid black;
+    width: 14.3rem;
+}
+
+.card>img{
+    height: 10rem;
+}
+
+.card>div{
+    padding: 10px;
+    text-align: center;
+}
+
+
+.cart>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+}
