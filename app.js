@@ -182,7 +182,12 @@ function addItem(key){
 }
 
 function minusItem(key){
-    cart[key].qty--
-    cart[key].totalPrice = cart[key].price.slice(1) * cart[key].qty;
+    if (cart[key].qty > 1) {
+        cart[key].qty--
+        cart[key].totalPrice = cart[key].price.slice(1) * cart[key].qty;
+    }else if (cart[key].qty <= 1) {
+        delete cart[key]
+    }
+
     printCart()
 }
