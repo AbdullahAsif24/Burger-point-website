@@ -39,7 +39,7 @@ for (let i = 0; i < burgers.length; i++) {
 
     let product = `
     <div
-    class='card w-[28%] flex items-center justify-center py-3 px-2'>
+    class='card md:w-[28%] w-[100%] py-3 px-2'>
     <div class='w-full max-w-md  mx-auto bg-white rounded-3xl shadow-xl overflow-hidden'>
         <div class='max-w-md mx-auto'>
             <div class='h-[200px]'
